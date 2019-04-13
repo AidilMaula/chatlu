@@ -1,3 +1,4 @@
+
 <html>
 <head>
     <title>IO Chat</title>
@@ -10,24 +11,34 @@
     
 <style>
     body {
-        background: #0984e3;
+        background: linear-gradient(-45deg, #00b894, #00cec9, #0984e3);
         margin-top: 30px;
-}
+    }
     
     #messageArea{
         display:none;
     }
+
+    #userFormArea{
+        width: auto;
+        margin: auto;
+        margin-top:250px;
+    }
+
+    
+
 </style>  
 
     
 
 <body>
     <div class="container" >
-        <div id="userFormArea" class="row">
+            <img alt="logo" id="logo" src="/logo/logo.png" style="float:right;width:250px;height:auto;">
+            <div id="userFormArea" class="row">
             <div class="col-md-12">
             <form id="userForm">
             <div class="form-group">
-                <label>Enter Username</label>
+                <div style="text-align:center"><label>Enter Username</label></div>
                 <input class="form-control" id="username" />
                 <br />
                 <input type="submit" class="btn btn-primary" value="Login" />
@@ -104,6 +115,10 @@
                 $users.html(html);
             });
         });
+
+        function validusername() {
+            var x = document.forms
+        }
 </script>
 
 

@@ -8,6 +8,7 @@ connections = [];
 server.listen(process.env.PORT || 3000);
 console.log('Server running....');
 
+
 app.get('/', function(req, res){
     res.sendfile(__dirname + '/index.html');
 });
@@ -44,3 +45,6 @@ io.sockets.on('connection' , function(socket){
 
 
 });
+
+var publicDir = require('path').join(__dirname,'/public');
+app.use(express.static(publicDir));
