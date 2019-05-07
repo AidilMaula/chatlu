@@ -9,3 +9,6 @@ A simple real time chat application
 * Express = Web application framework for Node.js
 
 * Heroku = Deploying applications
+
+Online demonstration
+[http://chatlu.herokuapp.com/]
