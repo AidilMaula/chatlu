@@ -1,4 +1,4 @@
-#A simple real time chat application
+# A simple real time chat application
 
 * Node.js = A web server
 
