@@ -1,10 +1,11 @@
 # simple real time chat application
 
-* Node.js = A web server
+**Description**
+I'm building a real-time chat application using Socket.io for real-time web applications and Node.js and Express for a server. Lastly, the application deployed on Heroku.
+
+* Node.js & Express = A web server
 
 * Socket.io = JavaScript library for realtime web applications
-
-* Express = Web application framework for Node.js
 
 * Heroku = Deploying applications
 
