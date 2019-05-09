@@ -6,7 +6,7 @@ I'm building a real-time chat application using Socket.io for real-time web appl
 
 **Tech stack**
 
-* Node.js & Express = A web server
+* Node.js & Express = Server framework
 
 * Socket.io = JavaScript library for realtime web applications
 
