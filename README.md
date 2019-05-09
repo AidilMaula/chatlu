@@ -2,7 +2,7 @@
 
 **Description**
 
-I'm building a real-time chat application using Socket.io for real-time web applications and Node.js and Express for a server. Lastly, the application deployed on Heroku.
+This project will show a real-time chat application using Socket.io for real-time web applications. Node.js and Express as a server framework. Then, the application deployed on Heroku.
 
 **Tech stack**
 
